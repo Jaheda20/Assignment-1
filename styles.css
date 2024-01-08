@@ -104,7 +104,7 @@ newyear-pic{
 }
 .first-button{
     border-radius: 5px;
-    background: #d4844bdc;
+    background: rgba(0,0,0,0);
     border: 0;
     color: var(--White-Color, #FFF);
     font-size: 20px;
@@ -117,5 +117,35 @@ newyear-pic{
     height: 465px;
     width: 320px;
     padding: 0
-    justify-content: center;
+    
+}
+.container{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-size: cover;
+    background-position: center; 
+    border-radius: 15px;
+    height: 600px;
+    width: 1400px;
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.info{
+    color: #070211;
+font-size: 32px;
+font-weight: 600;
+}
+b{
+    color: #F00;
+}
+.join-button{
+    border-radius: 5px;
+    background: red;
+    border: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 35px; 
+    margin-top: 50px; 
 }
