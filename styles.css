@@ -212,12 +212,8 @@ b{
     background: #FFF;
     background-size: cover;
     background-position: center;
-    padding: 50px;
     margin: auto;
     width: 1400px;
-
-    display: flex;
-    flex-direction: column;
 }
 .message{
     color: #F00;
@@ -236,3 +232,25 @@ b{
     box-sizing: border-box;
     width: 1000px;
 }
+.portfolio-pictures{
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.one{
+    width: 400px;
+    height: 420px;
+    border-radius: 16px;
+    padding: 20px;
+}
+.two{
+    width: 400px;
+    height: 420px;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+
+
