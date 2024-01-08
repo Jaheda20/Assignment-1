@@ -152,7 +152,7 @@ b{
 }
 .offer-container{
     height: 600px;
-    width: 1400px;
+    width: 1600px;
     background: #FFF;
     background-size: cover;
     background-position: center;
@@ -206,6 +206,33 @@ b{
 }
 .newyear-wish{
     width: 140px;
-    height: 140px;
-    
+    height: 140px;   
+}
+.portfolio{
+    background: #FFF;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin: auto;
+    width: 1400px;
+
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 1000px;
 }
