@@ -1,5 +1,4 @@
 body{
-    margin: auto;
     font-family: Merriweather;
 }
 
@@ -42,6 +41,7 @@ body{
 }
 .offer{
     text-align: center;
+    
 }
 .sale{
     color: #F00;
@@ -63,11 +63,14 @@ body{
     font-weight: 700;
     margin-top: 0;
 }
-newyear-pic{
-    display: flex;
-    width: 800px;
-    height: 500px;
-    flex-shrink: 0;
+.picture{
+    text-align: center;
+}
+new-year{
+    width: 700px;
+    height: 400px;
+    
+    
 }
 .party-invitation{
     background-image: linear-gradient( to right, rgba(0,0,0), rgba(0,0,0,0)), url(resources/Vectorrr.png);
@@ -124,7 +127,7 @@ newyear-pic{
     background-size: cover;
     background-position: center; 
     border-radius: 15px;
-    height: 600px;
+    height: 500px;
     width: 1400px;
     padding: 100px;
     margin: auto;
@@ -133,8 +136,8 @@ newyear-pic{
 }
 .info{
     color: #070211;
-font-size: 32px;
-font-weight: 600;
+    font-size: 32px;
+    font-weight: 600;
 }
 b{
     color: #F00;
@@ -148,4 +151,60 @@ b{
     font-weight: 700;
     padding: 16px 35px; 
     margin-top: 50px; 
+}
+.offer-container{
+    height: 500px;
+    width: 1400px;
+    background: #FFF;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.offer-title{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.time{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+.offer{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+}
+.celebration{
+    width: 360px;
+    height: 360px;
+    padding: 50px;
+    background-color: red;
+    border-color: white;
+    border-radius: 50%;
+   
+}
+.year-number{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.quote{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+.newyear-wish{
+    width: 140px;
+    height: 140px;
 }
