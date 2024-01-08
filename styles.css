@@ -1,0 +1,47 @@
+
+
+.banner{
+    text-align: center;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1400px;
+    padding: 100px;
+    margin: auto;
+    border-radius: 16px;
+    justify-content: center;
+    position: relative;
+
+    
+    
+}
+.banner-subtitle{
+    position: absolute;
+    top: 177px;
+    right: 531px;
+    bottom: 383px;
+    left: 530px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.banner-title{
+
+    position: absolute;
+    top: 283px;
+    right: 344px;
+    bottom: 177px;
+    left: 344px;
+    color: white;
+   
+    font-size: 90px;
+    font-weight: 900;
+    padding: 5px;
+    margin-top: 30px;
+    
+
+    
+}
