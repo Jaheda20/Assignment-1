@@ -1,4 +1,8 @@
+body{
+    margin: auto;
+    font-family: Merriweather;
 
+}
 
 .banner{
     text-align: center;
@@ -36,12 +40,38 @@
     bottom: 177px;
     left: 344px;
     color: white;
-   
     font-size: 90px;
     font-weight: 900;
+    font-style: normal;
     padding: 5px;
-    margin-top: 30px;
-    
-
-    
+    margin-top: 30px;   
+}
+.offer{
+    text-align: center;
+}
+.sale{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
+.deals{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.categories{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin-top: 0;
+}
+newyear-pic{
+    display: flex;
+    width: 800px;
+height: 500px;
+flex-shrink: 0;
 }
