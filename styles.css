@@ -215,11 +215,13 @@ b{
     background-position: center;
     margin: auto;
     width: 1400px;
+    
 }
 .message{
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 120px;
 }
 .portfolio-title{
     color: #070211;
@@ -317,7 +319,7 @@ b{
     height: 100%;
     width: 100%;
     position: relative;
-    margin: auto;   
+    margin: 120px 0 0 0;   
 }
 
 .footer-row1{
@@ -373,6 +375,7 @@ b{
     margin: auto;
     width: 1400px;
     
+    
 }
 .offer-pictures{
     background-color: #FFF;
@@ -411,21 +414,22 @@ b{
     text-align: center;
     background-color: #FFF;
     margin: auto;
-    width: 1400px;
+    width: 1000px;
     justify-content: center;
 }
 .functional{
     color: #070211;
     font-size: 24px;
     font-weight: 500;
-    margin: 0;
-    border-radius: 0;
-    padding-bottom: 0;
+    margin-bottom: 0;
+   
 }
 .discount-heading{
     color: #070211; 
     font-size: 72px;
     font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 .discount-detail{
     color: rgba(7, 2, 17, 0.60);
@@ -433,6 +437,8 @@ b{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 0;
+    box-sizing: border-box;
+    
 }
 
 
